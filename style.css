@@ -1,0 +1,80 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+.navbar {
+    background: #727272;
+    border-bottom: 3px solid #666666;
+    opacity: 0.85;
+}
+
+#home-section {
+    background: url(https://images.pexels.com/photos/1002634/pexels-photo-1002634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home-section .fa{
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+.home-inner {
+    padding-top: 150px;    
+}
+
+#explore-section {
+    background: #fff;
+    color: #333;
+}
+
+#explore-section .fa{
+    color: #fff;
+    background-color: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#galery-section {
+    background: #fff;
+    color: #333;
+}
+
+#galery-section .fa{
+    color: #fff;
+    background-color: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#share-section {
+    background: #fff;
+    color: #333;
+}
+
+#share-section .fa{
+    color: #fff;
+    background-color: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.card-body {
+    background: rgba(114, 114, 114, 0.8);
+}
